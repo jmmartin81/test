@@ -33,8 +33,8 @@ class TinyUrl
     // Function to get integer ID back from a short url
     static int shortURLtoID(String shortURL)
     {
-        int id = 0; // initialize result
-     
+        int id = 0; // initialize result 
+
         // A simple base conversion logic
         for (int i = 0; i < shortURL.length(); i++)
         {
